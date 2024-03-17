@@ -31,4 +31,6 @@ ul li {
 ul{
     float: right;
     margin-left: 900px;
+    cursor: pointer;
+    gap: 10px;
 }
