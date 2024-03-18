@@ -16,6 +16,7 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
+
 html {
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
@@ -24,13 +25,41 @@ html {
 body {
     background: var(--main-color);
 }
+
 ul li {
     list-style: none;
     display: inline-block;
 }
-ul{
+
+ul {
     float: right;
     margin-left: 900px;
     cursor: pointer;
     color: white;
+}
+
+.games {
+    color: white;
+    margin-left: 550px;
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.inner_text {
+    color: white;
+    margin-left: 450px;
+    font-size: 50px;
+}
+
+.text {
+    margin-left: 70px;
+}
+.join{
+    height:40px;
+    width: 100px;
+    margin-left: 600px;
+    color: white;
+    border-radius: 5px;
+    padding-left:auto;
+    background: rgb(81, 40, 177);
 }
