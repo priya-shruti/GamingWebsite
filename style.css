@@ -26,11 +26,11 @@ body {
 }
 ul li {
     list-style: none;
-    display: inline;
+    display: inline-block;
 }
 ul{
     float: right;
     margin-left: 900px;
     cursor: pointer;
-    gap: 10px;
+    color: white;
 }
