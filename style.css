@@ -54,12 +54,49 @@ ul {
 .text {
     margin-left: 70px;
 }
-.join{
-    height:40px;
+
+.join {
+    height: 40px;
     width: 100px;
     margin-left: 600px;
     color: white;
     border-radius: 5px;
-    padding-left:auto;
+    padding-left: auto;
     background: rgb(81, 40, 177);
+}
+
+.image img {
+    height: 290px;
+    width: 450px;
+    margin-left: 400px;
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 75%;
+        overflow-x: hidden;
+    }
+    ul li {
+        /* padding-right: 1500px; */
+        display: none;
+    }
+    .games{
+        margin-left: 170px;
+        font-size: 20px;
+    }
+    .inner_text{
+        margin-left: 130px;
+    }
+    .text{
+        margin-left: 50px;
+    }
+    .join{
+        margin-left: 210px;
+    }
+    .image img{
+        height: 150px;
+        width: 190px;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
 }
