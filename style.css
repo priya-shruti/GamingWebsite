@@ -71,29 +71,48 @@ ul {
     margin-left: 400px;
 }
 
+.paragraph {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.tournament{
+    color: blue;
+}
+.paragraph2{
+    margin-left: 430px;
+    color: #fff;
+}
 @media (max-width:768px) {
     html {
         font-size: 75%;
         overflow-x: hidden;
     }
+
     ul li {
         /* padding-right: 1500px; */
         display: none;
     }
-    .games{
+
+    .games {
         margin-left: 170px;
         font-size: 20px;
     }
-    .inner_text{
+
+    .inner_text {
         margin-left: 130px;
     }
-    .text{
+
+    .text {
         margin-left: 50px;
     }
-    .join{
+
+    .join {
         margin-left: 210px;
     }
-    .image img{
+
+    .image img {
         height: 150px;
         width: 190px;
         margin-left: 150px;
