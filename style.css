@@ -77,17 +77,25 @@ ul {
     margin-left: 450px;
 }
 
-.tournament{
+.tournament {
     color: blue;
 }
-.paragraph2{
+
+.paragraph2 {
     margin-left: 430px;
     color: #fff;
 }
+
+.success_text{
+    margin-left: 370px;
+    color: #fff;
+    font-size: 12px;
+}
+
 @media (max-width:768px) {
     html {
         font-size: 75%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     ul li {
